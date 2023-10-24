@@ -255,6 +255,18 @@
         </dependency>
     </dependencies>
 
+    <repositories>
+        <!--        Needed for Spring Milestone Releases-->
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/milestone</url>
+        </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
     <scm>
         <connection>scm:git:git@github.com:avinashsinghgithub/sfg-brewery-bom.git</connection>
         <developerConnection>scm:git:git@github.com:avinashsinghgithub/sfg-brewery-bom.git</developerConnection>
